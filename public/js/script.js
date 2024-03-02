@@ -6,7 +6,7 @@ const outerFlash = document.querySelectorAll(".flash-outer");
 cross.addEventListener("click",(event)=>{
     // navbar.style.top = "-100%";
     gsap.to("#navbar",{
-        top:"-100%",
+        top:"-150%",
         duration:0.5
     });
     open.style.opacity = 1;
