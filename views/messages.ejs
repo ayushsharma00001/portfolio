@@ -1,0 +1,14 @@
+<%layout("/boilerplate/boilerplate.ejs")%>
+
+<body>
+    <div class="outer-div">
+        <%for(d of data){%>
+            <div class="inner-div">
+                <h3>Name: <%=d.name%></h3>
+                <p><b>Email:</b><%=d.email%></p>
+                <p><b>Profession:</b><%=d.profession%></p>
+                <p><b>Message:</b><%=d.msg%></p>
+            </div>
+        <%}%>
+    </div>
+</body>

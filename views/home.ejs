@@ -1,0 +1,86 @@
+<%layout("/boilerplate/boilerplate.ejs")%>
+<body>
+    <div id="main">
+        <div id="page1" data-scroll data-scroll-speed="1.3">
+            <div class="page1-left" >
+                <div class="pag1-left-img">
+                    <img src="https://res.cloudinary.com/dbaw4xx1j/image/upload/v1707653413/bikGaya_DEV/profile_qeo3nn.jpg" alt="myProfile">
+                </div>
+                <div class="page1-left-text">
+                    <h4>Namaste!</h4>
+                    <h2>I am Ayush sharma</h2>
+                    <h3>Website Developer</h3>
+                    <p>A passionate web developer with knowledge of both frontend and backend technologies and a problem solver.</p>
+                    <div class="socials">
+                        <a href="https://www.instagram.com/ayuxsh__1?igsh=MzZnZGE2ZGM1YzBs" target="_blank"><i class="ri-instagram-fill"></i></a>
+                        <a href="https://github.com/ayushsharma00001"  target="_blank"><i class="ri-github-fill"></i></a>
+                        <a href="https://www.linkedin.com/in/ayush-sharma-0b42bb24a"  target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="mailto:ayushkhandal6126@gmail.com"  target="_blank"><i class="ri-mail-send-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="page2" data-scroll>
+            <h2 id="page2-h2">Skills</h2>
+            <div class="outer-skills-div">
+                <div class="inner-skills-div" >
+                    <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-html-logo-0.png" alt="html">
+                    <h4 class="name">Html</h4>
+                    <h4 class="name">Proficiency: <i>90%</i></h4>
+                    <p>Html is a <b>Hyper text markup language.</b>  HTML is the standard markup language for creating Web pages. HTML describes the structure of a Web page.</p>
+                </div>
+                <div class="inner-skills-div" >
+                    <img src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-opencode-css-8.png" alt="css">
+                    <h4 class="name">css</h4>
+                    <h4 class="name">Proficiency: <i>80%</i></h4>
+                    <p>css is a <b>cascading style sheet.</b> CSS is a computer language for laying out, designing and structuring web pages (HTML or XML).</p>
+                </div>
+                <div class="inner-skills-div" >
+                    <img src="https://www.freepnglogos.com/uploads/javascript-png/javascript-vector-logo-yellow-png-transparent-javascript-vector-12.png" alt="javascript">
+                    <h4 class="name">Javascript</h4>
+                    <h4 class="name">Proficiency: <i>75%</i></h4>
+                    <p>JavaScript is a scripting or programming language that allows you to implement complex features on web pages.</p>
+                </div>
+                <div class="inner-skills-div" >
+                    <img src="https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png" alt="node js">
+                    <h4 class="name">Node js</h4>
+                    <h4 class="name">Proficiency: <i>60%</i></h4>
+                    <p>Node. js (Node) is an Open Source, cross-platform runtime environment for executing JavaScript code.</p>
+                </div>
+                <div class="inner-skills-div" >
+                    <img src="https://w7.pngwing.com/pngs/925/447/png-transparent-express-js-node-js-javascript-mongodb-node-js-text-trademark-logo.png" alt="express js">
+                    <h4 class="name">Express js</h4>
+                    <h4 class="name">Proficiency: <i>85%</i></h4>
+                    <p>Express is a node js web application framework that provides broad features for building web and mobile applications</p>
+                </div>
+                <div class="inner-skills-div" >
+                    <img src="https://w7.pngwing.com/pngs/956/695/png-transparent-mongodb-original-wordmark-logo-icon-thumbnail.png" alt="Mongo db">
+                    <h4 class="name">Mongo db</h4>
+                    <h4 class="name">Proficiency: <i>70%</i></h4>
+                    <p>MongoDB is built on a scale-out architecture that has become popular with developers of all kinds for developing scalable applications with evolving data schemas. </p>
+                </div>
+                
+            </div>
+        </div>
+        <div id="page3" data-scroll>
+            <h2 id="page3-h2">Any Question or suggestion</h2>
+            <form action="/msg" method="POST" id="msgForm">
+                <div class="inputs">
+                    <input type="email" id="email1" name="qus[email]" placeholder="Enter Email" required>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="name1" name="qus[name]" placeholder="Enter Name" required>
+                </div>
+                <div class="inputs">
+                    <input type="text" id="profession1" name="qus[profession]" placeholder="Enter Profession. not mandatory">
+                </div>
+                <div class="inputs">
+                    <textarea name="qus[msg]" id="msg1" cols="30" rows="5" placeholder="Enter Message" required></textarea>
+                </div>
+                <div class="inputs">
+                    <button class="btn">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>

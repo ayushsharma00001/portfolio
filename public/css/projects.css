@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+.outerProjectDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.666);
+
+}
+.innerProjectDiv{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+
+}
+.innerProjectDivOverlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.914);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    opacity: 0;
+    transition: all 0.4s linear;
+    color: white;
+    border-bottom-right-radius: 5rem;
+}
+.innerProjectDiv h2{
+    font-size: 16vw;
+}

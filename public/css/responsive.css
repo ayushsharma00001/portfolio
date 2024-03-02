@@ -1,0 +1,50 @@
+@media (max-width: 900px) {
+    .inner-skills-div{
+        width: 40%;
+    }
+    .outer-skills-div{
+        padding-bottom: 2rem;
+    }
+    .about-page1{
+        padding-top: 1rem;
+    }
+
+}
+@media (max-width: 548px) {
+    #page1{
+        min-height: 100vh;
+        padding: 0 1.2rem;
+    }
+    .inner-skills-div{
+        width: 100%;
+        height: 30vh;
+
+    }
+    .page1-left{
+        flex-direction: column;
+        height: 80%;
+        align-items: flex-start;
+        padding-top: 2rem;
+    }
+    .page1-left-img{
+        width: 100%;
+    }
+    .pag1-left-img img{
+        height: 25vh;
+        width: 25vh;
+    }
+    .page1-left-text{
+        width: 100%;
+    }
+    .outer-skills-div{
+        margin: 0 1rem;
+    }
+    #page3{
+        height: auto;
+    }
+    .about-page1{
+        padding-top: 3rem;
+    }
+
+}
+  
