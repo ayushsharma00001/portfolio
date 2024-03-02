@@ -10,8 +10,6 @@ const { createQus, renderPass, showQus } = require("../controllers/qus");
 
 
 route.post("/msg",validateQus,wrapAsync(createQus));
-
-
 route.get("/msg/pass",wrapAsync(renderPass));
 route.get("/msg/pass/messages",wrapAsync(showQus));
 
