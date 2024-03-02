@@ -57,6 +57,7 @@ html,body{
     text-transform: uppercase;
     position: sticky;
     z-index: 250;
+    background-color: transparent;
 
 }
 .open i{

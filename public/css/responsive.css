@@ -45,6 +45,9 @@
     .about-page1{
         padding-top: 3rem;
     }
+    .inner-div-error , .inner-div-success{
+        width: 15rem;
+    }
 
 }
   
