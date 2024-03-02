@@ -50,6 +50,8 @@
     }
     .open{
         height: 4rem;
+        background-color: white;
+        color: black;
     }
     .open-cross i{
         font-size: 10vw;
