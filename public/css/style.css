@@ -56,7 +56,7 @@ html,body{
     align-items: center;
     text-transform: uppercase;
     position: sticky;
-    z-index: 150;
+    z-index: 250;
 
 }
 .open i{
