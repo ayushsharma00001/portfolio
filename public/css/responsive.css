@@ -48,6 +48,13 @@
     .inner-div-error , .inner-div-success{
         width: 15rem;
     }
+    .open{
+        height: 4rem;
+    }
+    .open-cross i{
+        font-size: 10vw;
+    
+    }
 
 }
   
